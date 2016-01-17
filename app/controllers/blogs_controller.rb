@@ -1,4 +1,5 @@
 class BlogsController < ApplicationController
+  before_filter :auth_user!, except: [:index, :show]
   before_action :set_blog, only: [:show, :edit, :update, :destroy]
 
   # GET /blogs

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'missing/index'
+
   devise_for :users
   resources :blogs
   get 'welcome/index'

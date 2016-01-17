@@ -16,14 +16,14 @@
 
 
 
-//For making footer stay at the bottom of the page
+//For making footer stay at the bottom of the page even if the cotent is a small amount on the page
 $(document).ready(function() {
 
 var docHeight = $(window).height();
 var footerHeight = $('#footer').height();
 var footerTop = $('#footer').position().top + footerHeight;
 
-    if (footerTop < docHeight) {
+if (footerTop < docHeight) {
     $('#footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
-    }
+}
 });
