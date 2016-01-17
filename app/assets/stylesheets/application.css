@@ -192,3 +192,27 @@ body {
 .alert {
     margin-top: 25px;
 }
+
+.blog-post-title h2 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: #252525;
+    line-height: 1.2;
+}
+
+.blog-post-title p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #666;
+    margin: 6px 0;
+}
+
+.blog-post-title a {
+    text-decoration: none;
+}
+
+.blog-index {
+    margin-top: 40px;
+}

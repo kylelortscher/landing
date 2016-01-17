@@ -14,14 +14,18 @@
 <body>
 <%= render 'layouts/navbar' %>
 <% unless notice.nil? %>
-  <p class="alert alert-info">
-    <%= notice %>
-  </p>
+  <div class="container">
+    <p class="alert alert-info">
+      <%= notice %>
+    </p>
+  </div>
 <% end %>
 <% unless alert.nil? %>
-  <p class="alert alert-danger">
-    <%= alert %>
-  </p>
+  <div class="container">
+    <p class="alert alert-danger">
+      <%= alert %>
+    </p>
+  </div>
 <% end %>
 <%= yield %>
 <%= render 'layouts/footer' %>
