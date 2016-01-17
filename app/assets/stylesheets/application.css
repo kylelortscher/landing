@@ -1,0 +1,191 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    margin-bottom: -20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+    font-size: 32px;
+}
+
+.jumbotron-h1 h1 {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    color: #fff;
+    text-shadow: 1px 1px #222222;
+    font-weight: bold;
+}
+
+.jumbotron-p p {
+    margin-bottom: 2%;
+    color: #fff;
+    text-shadow: 1px 1px #222222;
+    font-weight: bold;
+}
+
+.jumbotron {
+    position: relative;
+    background: #14213D;
+    width: 100%;
+    margin-bottom: 90px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form-control {
+    height: 46px;
+}
+
+.form-inline .form-control {
+    width: 400px;
+}
+
+.benefits h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.6em;
+    margin-bottom: 75px;
+    color: #00415d;
+}
+
+.landing-img-text {
+    line-height: 1.6;
+    margin: 25px 0;
+    color: #4c4c4c;
+}
+
+.landing-image-list li {
+    color: #696f72;
+    font-size: .95em;
+    line-height: 1.6em;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.company-list {
+    margin: 1% 1%;
+    background-color: #E5E5E5;
+}
+
+#footer {
+    min-width: 100%;
+    background: #0081ba;
+    margin-top: 50px;
+    color: #ffffff;
+    padding: 0px;
+}
+
+.jumbotron .text-center {
+    margin-bottom: 13%;
+}
+
+.footer-links h4 {
+    border-bottom: 1px dotted #699acb;
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 0;
+    color: #e5e5e5;
+    padding: 0 0 7px 0;
+}
+
+.footer-links li {
+    list-style-type: none;
+    font-size: .65em;
+    margin: 1%;
+}
+
+.footer-links {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.footer-logo {
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    font-weight: bold;
+}
+
+.footer-rights {
+    font-size: .75em;
+    color: #e5e5e5;
+    
+}
+
+.footer-rights p {
+    margin-bottom: -10px;
+}
+
+.social-icon {
+    margin: 1%;
+}
+
+.footer-left-side {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#blog-cta {
+    margin-top: 20px;
+    background: #27303b;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+#blog-cta-content h1 {
+    color: #fff;
+    padding-top: 65px;
+}
+
+#blog-cta-content p {
+    color: #fff;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#blog-cta-content .form-inline {
+    padding-bottom: 65px;
+}
+
+.blog-heading {
+    font-size: 25px;
+    margin-top: 55px;
+}
+
+.blog-desc {
+    line-height: 1.6;
+}
