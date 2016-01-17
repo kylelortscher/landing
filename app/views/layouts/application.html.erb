@@ -12,22 +12,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render 'layouts/navbar' %>
-<% unless notice.nil? %>
-  <div class="container">
-    <p class="alert alert-info">
-      <%= notice %>
-    </p>
+  <div class="wrap">
+    <div id="main">
+      <%= render 'layouts/navbar' %>
+      <% unless notice.nil? %>
+        <div class="container">
+          <p class="alert alert-info">
+            <%= notice %>
+          </p>
+        </div>
+      <% end %>
+      <% unless alert.nil? %>
+        <div class="container">
+          <p class="alert alert-danger">
+            <%= alert %>
+          </p>
+        </div>
+      <% end %>
+    <%= yield %>
+    </div>
   </div>
-<% end %>
-<% unless alert.nil? %>
-  <div class="container">
-    <p class="alert alert-danger">
-      <%= alert %>
-    </p>
-  </div>
-<% end %>
-<%= yield %>
 <%= render 'layouts/footer' %>
 </body>
 </html>
