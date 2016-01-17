@@ -6,7 +6,9 @@
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
               <div class="blog-post-image">
-                  <img src="https://assets.entrepreneur.com/content/3x2/274/1395347875-what-young-tech-companies-really-want.jpg" width="240" height="160">
+                  <%= link_to blog do %>
+                    <img src="https://assets.entrepreneur.com/content/3x2/274/1395347875-what-young-tech-companies-really-want.jpg" width="240" height="160">
+                  <% end %>
               </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
@@ -18,18 +20,14 @@
               </div>
             </div>
           </div>
-            <% if user_signed_in? %>
-              <%= link_to 'Show', blog, class:"btn btn-primary btn-xs" %>
+          <% if user_signed_in? %>
               <%= link_to 'Edit', edit_blog_path(blog), class:"btn btn-primary btn-xs" %>
               <%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger btn-xs" %>
-            <% end %>
-          </span>
+          <% end %>
           <hr>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-hidden">
-          
-        </div>
+      <% end %>
+      <img src="http://cdn2.hubspot.net/hubfs/53/hub_generated/resized/c7dc2cb5-b9e8-46fd-8537-c1840e38ce28.png">
       </div>
-    <% end %>
   </div>
 </div>
