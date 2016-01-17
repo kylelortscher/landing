@@ -13,6 +13,16 @@
 </head>
 <body>
 <%= render 'layouts/navbar' %>
+<% unless notice.nil? %>
+  <p class="alert alert-info">
+    <%= notice %>
+  </p>
+<% end %>
+<% unless alert.nil? %>
+  <p class="alert alert-danger">
+    <%= alert %>
+  </p>
+<% end %>
 <%= yield %>
 <%= render 'layouts/footer' %>
 </body>

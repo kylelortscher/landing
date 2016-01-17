@@ -189,3 +189,6 @@ body {
 .blog-desc {
     line-height: 1.6;
 }
+.alert {
+    margin-top: 25px;
+}
