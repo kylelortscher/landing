@@ -216,3 +216,22 @@ body {
 .blog-index {
     margin-top: 40px;
 }
+
+.btn-outline-success {
+    color: #5cb85c;
+    background-color: #fff;
+    border-color: #5cb85c;
+    border: 3px solid;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+#mc_embed_signup {
+    background: #14213D;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    width: 100%;
+}
